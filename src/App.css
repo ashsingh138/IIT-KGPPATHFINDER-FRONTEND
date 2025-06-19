@@ -1,0 +1,79 @@
+
+.App {
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  gap: 20px;
+}
+
+.App h1 {
+  color: #343a40;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+
+.App {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.App h1 {
+  
+  color: #343a40;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+
+
+
+.app-footer {
+  width: 100%;
+  margin-top: auto; 
+  padding: 40px 20px 20px 20px; 
+  text-align: center;
+  font-size: 0.9em;
+  color: #6c757d; 
+  border-top: 1px solid #dee2e6; }
+
+  /* In App.css */
+
+.app-footer {
+  width: 100%;
+  margin-top: auto;
+  padding: 25px;
+  text-align: center;
+  
+  background-color: #e9ecef; /* Light, clean background */
+  border-top: 2px solid #dee2e6; /* A subtle top border */
+
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #495057; /* Darker text for readability */
+}
+
+.app-footer a {
+  color: #0056b3; /* A standard, professional blue */
+  text-decoration: none;
+  /* Align icon and text vertically */
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* Space between icon and text */
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}

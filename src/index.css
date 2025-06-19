@@ -1,0 +1,15 @@
+/* index.css */
+
+/* ... keep the :root styles as they are ... */
+
+body {
+  margin: 0;
+  /* REMOVE the following two lines: */
+  /* display: flex; */
+  /* place-items: center; */
+
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* ... keep the rest of the file as is ... */
